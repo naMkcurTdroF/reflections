@@ -1,0 +1,2 @@
+How did viewing a diff between two versions of a file help you spot the bug?
+   - it showed just the relavant lines (not the whole file) and the relative size of differences
