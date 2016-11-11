@@ -38,5 +38,7 @@ the diagram the way we do?
     - the changes in each is merged and the current branch name/label is given to the merged node...then the other branch label can be removed because you can get to all the changes from one branch
     - the diagram shows the history of from what parent a branch started so you can see reachability
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+    - Pros: can be very fast for obvious edits, automatically tries to call out conflicts (which manually you might miss)
+	- Cons: could result in uncompilable code because of emergent or not straight-forward interdependencies.
