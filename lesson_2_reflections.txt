@@ -20,14 +20,23 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+    - review the contents of it before committing and you have to manually add files ot the staging area
+	- for a big project that seems like it might be a pain...wonder how to do that enmass?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	- when doing some experimental work that would tear up existing code
+	- when I'm going to keep the current path going but want to try some things 'on the side'
+	- especially when collaborating with others so that the master is always "known good" or at least "thought good" paths
 
 How do the diagrams help you visualize the branch structure?
-
+    - I can see when braches occured, what commits I can't get to directly from the current branch (if any), etc...
+	- annoying I can't just see a full map though (maybe in the windows version?
+	
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    - the changes in each is merged and the current branch name/label is given to the merged node...then the other branch label can be removed because you can get to all the changes from one branch
+    - the diagram shows the history of from what parent a branch started so you can see reachability
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
